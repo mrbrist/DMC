@@ -4,8 +4,11 @@ var darkMatter = 0
 function updateGame(modifier) {
   var increment = 0.1
   modifier = modifier || 1;
-  // ... game stuff ...
-  
+
+  var diyCount = 0
+  var diyMultiplyer = 0.1
+  increment = increment + (diyCount * diyMultiplyer)
+
   darkMatter += increment * modifier;
   document.getElementById('darkMatter').innerText = Math.floor(darkMatter)
 }
