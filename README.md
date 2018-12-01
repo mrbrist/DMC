@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo_256.png"/> <br>
+  <img src="icon_256.png"/> <br>
 </p>
 
 ### Contact Me
